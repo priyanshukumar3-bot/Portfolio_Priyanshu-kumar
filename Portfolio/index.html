@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyanshu Kumar Portfolio</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="loader">
+    <div class="loader-content">
+      <span class="bracket">{</span>
+      <span class="loader-text">Priyanshu</span>
+      <span class="bracket">}</span>
+    </div>
+  </div>
+
+  <div class="bg-grid"></div>
+
+  <nav class="container">
+    <div class="logo fade-down">
+      Priyanshu<span class="dot">.</span>Kumar
+    </div>
+    <ul class="nav-links fade-down">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li>
+        <a href="#contact" class="primary-btn nav-cta">
+          Contact Me <span class="arrow">→</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="subtitle-highlight reveal">HI THERE, I AM</p>
+          <h1 class="reveal delay-1">
+            Developer<br />
+            <span class="highlight">Problem Solver.</span>
+          </h1>
+          <p class="description reveal delay-2">
+            I am a first-year BCA student building digital experiences with logic and creativity.
+            Currently focused on mastering <strong>C Programming</strong> and modern
+            <strong>Web Standards</strong>.
+          </p>
+          <div class="cta-group reveal delay-3">
+            <a href="#projects" class="primary-btn">
+              View My Work <span class="arrow">→</span>
+            </a>
+            <a href="#contact" class="secondary-btn">
+              Let's Talk <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-2">
+          <div class="code-window">
+            <div class="window-header">
+              <div class="dot red"></div>
+              <div class="dot yellow"></div>
+              <div class="dot green"></div>
+              <span class="title">profile.js</span>
+            </div>
+            <div class="window-body">
+              <p><span class="keyword">const</span> <span class="var">student</span> = {</p>
+              <p class="indent">
+                <span class="var">name</span>:
+                <span class="string">"Priyanshu Kumar"</span>,
+              </p>
+              <p class="indent">
+                <span class="var">role</span>:
+                <span class="string">"BCA Student"</span>,
+              </p>
+              <p class="indent">
+                <span class="var">skills</span>:
+                <span class="string">["C", "Java", "Web"]</span>,
+              </p>
+              <p class="indent">
+                <span class="var">status</span>:
+                <span class="string">"Ready to work"</span>
+              </p>
+              <p>};</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>About Me</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal delay-1">
+          <h3>My Journey</h3>
+          <p>
+            My journey into technology began with a curiosity about how software actually works.
+            Starting with <strong>C programming</strong>, I learned the importance of memory
+            management and logical flow.
+          </p>
+          <br />
+          <p>
+            Now, as a <strong>BCA student</strong>, I am expanding my skillset into
+            <strong>Web Development</strong>. I enjoy the process of solving puzzles—whether it
+            is debugging a loop or perfecting a UI layout. My goal is to build tools that are both
+            functional and easy to use.
+          </p>
+        </div>
+
+        <div class="about-stats reveal delay-2">
+          <div class="stat-box">
+            <h4>01</h4>
+            <p>Year of Study</p>
+          </div>
+          <div class="stat-box">
+            <h4>05</h4>
+            <p>Projects Built</p>
+          </div>
+          <div class="stat-box">
+            <h4>100%</h4>
+            <p>Focus</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Technical Skills</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="skills-wrapper reveal delay-1">
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <div class="tags">
+            <span>C Programming</span>
+            <span>Java</span>
+            <span>Python</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Web Technologies</h3>
+          <div class="tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript ES6</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Tools</h3>
+          <div class="tags">
+            <span>VS Code</span>
+            <span>Git / GitHub</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Featured Projects</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card reveal delay-1">
+          <div class="card-top">
+            <span class="folder-icon">📁</span>
+            <div class="links">
+              <a href="https://project-portfolio-neon-clock.netlify.app/" target="_blank">↗</a>
+            </div>
+          </div>
+          <h3>Digital Clock</h3>
+          <p>
+            A real-time clock interface built with vanilla JavaScript.
+            It uses the Date object to sync time accurately every second without page reloads.
+          </p>
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JS</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="card-top">
+            <span class="folder-icon">📁</span>
+            <div class="links">
+              <a href="https://project-working-calculator.netlify.app/" target="_blank">↗</a>
+            </div>
+          </div>
+          <h3>Smart Calculator</h3>
+          <p>
+            A fully functional calculator that handles arithmetic operations.
+            Includes error handling for edge cases like division by zero.
+          </p>
+          <div class="tech-stack">
+            <span>Logic</span>
+            <span>DOM</span>
+            <span>CSS Grid</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-3">
+          <div class="card-top">
+            <span class="folder-icon">📁</span>
+            <div class="links">
+              <a href="https://projects-to-do-list.netlify.app/" target="_blank">↗</a>
+            </div>
+          </div>
+          <h3>Task Master To-Do</h3>
+          <p>
+            A productivity tool to manage daily tasks.
+            Users can add items, mark them as complete, and delete them.
+            Data persists using LocalStorage.
+          </p>
+          <div class="tech-stack">
+            <span>JavaScript</span>
+            <span>Storage API</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="contact-layout reveal">
+        <div class="contact-info">
+          <h2>Let's work together.</h2>
+          <p>
+            I am currently available for internships and projects.
+            If you have a question or just want to say hi, I will try my best to get back to you!
+          </p>
+          <p class="email-link">priyanshu.kumar@rungta.org</p>
+          <p class="email-link">6204684968</p>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" placeholder="Priyanshu Kumar" />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="Priyanshu@example.com" />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="4" placeholder="Tell me about your project"></textarea>
+          </div>
+          <button type="submit" class="primary-btn full-width">
+            Send Message <span class="arrow">→</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed &amp; Built by Priyanshu Kumar 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
